@@ -1,21 +1,8 @@
 # predict_blood_pressure_with_linear_regression
 
-La pression sanguine est la force exercée par le sang sur la paroi des vaisseaux, par unité
-de surface. En médecine, on parle de pression artérielle (ou de tension artérielle) pour
-désigner la pression mesurée dans les artères proches du cœur.
+Blood pressure is the force exerted by blood on the wall of vessels, per unit area. In medicine, we speak of blood pressure (or blood pressure) to designate the pressure measured in the arteries near the heart.
 
-L’hypertension artérielle (HTA) est une maladie fréquente dans le monde. Liée à une
-pression anormalement élevée du sang dans les vaisseaux sanguins, elle semble anodine car
-elle généralement silencieuse. Si elle n'est pas traitée pendant une période prolongée, il
-peut entraîner des complications médicales importantes telles qu'une crise cardiaque, un
-accident vasculaire cérébral ou une maladie rénale. Pour remédier à ce problème, on
-souhaite développer un modèle qui prédit la tension artérielle, basé sur des mesures de
-santé et des informations limitées sur le mode de vie des patients. L’objectif est d’utiliser ce
-modèle pour développer un portail patient interactif qui fournit une estimation de la tension
-artérielle d’un patient en fonction de ses paramètres de santé et de son mode de vie.
+High blood pressure (hypertension) is a common disease around the world. Linked to an abnormally high blood pressure in the blood vessels, it seems harmless because it is generally silent. If left untreated for an extended period of time, it can lead to serious medical complications such as a heart attack, stroke, or kidney disease. To remedy this problem, there is a desire to develop a model that predicts blood pressure, based on health measurements and limited information about the lifestyle of patients. The goal is to use this model to develop an interactive patient portal that provides an estimate of a patient's blood pressure based on their health parameters and lifestyle.
+For this we have data from 1475 patients collected during the last 12 months. The data used in this study is real world data collected by ‘U.S.
 
-Pour cela on a des données de 1 475 patients collecté au cours des 12 derniers mois. Les
-données utilisé dans cette étude sont des données du monde réel collectées par ‘U.S.
-Centers for Disease Control and Prevention’ dans le cadre de ‘National Health and Nutrition
-Examination Survey (NHANES)’. De nombreuses données issues de cette enquête sont
-disponibles via le package RNHANES.
+Centers for Disease Control and Prevention ’as part of the National Health and Nutrition Examination Survey (NHANES). Much data from this survey is available via the RNHANES package.
